@@ -4,6 +4,8 @@
 
 mysql安装：https://www.runoob.com/mysql/mysql-install.html
 
+mysql相关操作：https://blog.csdn.net/Mrzhangjwei/article/details/53001841; https://www.cnblogs.com/bluecobra/archive/2012/01/11/2318922.html
+
 models中定义了数据库使用的模型；djangoProject下的settings定义数据库相关属性
 
 <img src="https://user-images.githubusercontent.com/57995255/144731045-3b699ffa-30f3-4c9f-ae58-233bd1a5065d.png" width=300 alt="db"/>
@@ -14,7 +16,7 @@ models中定义了数据库使用的模型；djangoProject下的settings定义�
 
 #### models改动后需重新启动：
 
-**删除migration/0001_initial.py**后
+**删除migration/0001_initial.py，并且删除原来数据库的表**后
 
 -python manage.py migrate; 
 
