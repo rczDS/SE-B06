@@ -32,6 +32,9 @@ post:前端->后端；get:后端->前端；数据形式为json
 
 <img src="https://user-images.githubusercontent.com/57995255/144731398-8edc0aa1-b16c-4b59-ab57-428961afd6e2.png" width=300 alt="rest"/>
 
+### 其他
+
+python manage.py runserver后前端可访问接口；
 
 添加应用时记得在settings的installed_apps中添加
 
