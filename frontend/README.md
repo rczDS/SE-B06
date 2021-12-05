@@ -1,12 +1,30 @@
-# 云开发 quickstart
+## frontend
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+在微信开发者工具或uniapp中使用；
 
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+Appid: wx30d9b9b18cffedc7
 
-## 参考文档
+对应原型，前端结构:
 
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
++ login
 
++ home 
+  + addTask      
+  + submitTask
+      
++ folder
+
++ manage 
+  + addMember
+  + delMember
+  + setAdmin
+  + changePasswd
+        
++ finance 
+  + flow
+  + publicity
+  + uploadInfo
+
+## 接口
+http://127.0.0.1:8000/wx/.../
+         
