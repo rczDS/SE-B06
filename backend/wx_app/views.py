@@ -117,6 +117,13 @@ taskList = [
     {'content': '任务2', "members": "a,b", "edit": "y"},
     {"content": "任务3", "members": "a,b,c", "edit": "n"},
 ]
+
+allMembers = [
+    {'name': '张三'，'id':"33333"},
+    {'name': '王五','id':"55555"},
+    {"name": "赵六","66666"},
+]
+
 userTaskList = [
     {"content": "任务1", "edit": "y"},
     {"content": "任务2", "edit": "y"},

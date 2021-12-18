@@ -1,11 +1,29 @@
 <view>
-  <view  class="inputName">
-    <text>姓名</text>
-    <input type="text" maxlength="10" cursor-spacing="180px" placeholder="请输入姓名"  model:value="{{name}}" bindinput="inputName" />
+  <view class="weui-cells__title">请输入成员信息</view>
+  <view class="weui-cells__group weui-cells__group_form">
+    <view class="weui-cells">
+      <view  class="weui-cell">
+        <view class="weui-cell__hd">
+         <label class="weui-label">姓名</label>
+        </view>
+       <view class="weui-cell__bd">
+          <view class="inputName">
+            <input class="weui-input" type="text" maxlength="10" cursor-spacing="180px" placeholder="请输入姓名"  model:value="{{name}}" bindinput="inputName" />
+          </view>
+        </view>
+      </view>
+      <view  class="weui-cell">
+        <view class="weui-cell__hd">
+         <label class="weui-label">学号</label>
+        </view>
+       <view class="weui-cell__bd">
+          <view class="inputId">
+             <input class="weui-input" type="text" maxlength="10" cursor-spacing="180px" placeholder="请输入学号"  model:value="{{id}}" bindinput="inputId" />
+          </view>
+        </view>
+      </view>
+      
+    </view>
   </view>
-  <view  class="inputId">
-    <text>学号</text>
-    <input type="text" maxlength="10" cursor-spacing="180px" placeholder="请输入学号"  model:value="{{id}}" bindinput="inputId" />
-  </view>
-  <button class="weui-btn weui-btn_primary" bindtap="add" >添加</button>
+  <button class="weui-btn weui-btn_cell-default " bindtap="add" >添加</button>
 </view>

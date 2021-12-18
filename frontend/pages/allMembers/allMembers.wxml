@@ -1,0 +1,13 @@
+<view class="table">
+    <view class="tr bg-w">
+      <view class="th">姓名</view>
+      <view class="th">学号</view>
+    </view>
+    <block wx:for="{{allMembers}}">
+      <view class="tr bg-g">
+        <view class="td">{{item.name}}</view>
+        <view class="td">{{item.id}}</view>
+        <button type="default" bindtap="delTask"data-index="{{index}}">del</button>
+      </view>
+    </block>
+  </view>

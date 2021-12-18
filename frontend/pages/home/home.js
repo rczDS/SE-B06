@@ -40,6 +40,11 @@ Page({
   },
   addTask: function(e){
   },
+  switchToManager:function(e){
+    wx.navigateTo({
+      url: '/pages/managerHome/managerHome',
+    })
+  },
   tabChange(e) {
       console.log('tab change', e)
   },
@@ -66,6 +71,7 @@ Page({
           })
         }    
       },
+
     })
   }
 })
