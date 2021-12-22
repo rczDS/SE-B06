@@ -1,3 +1,21 @@
 <view>
-  静态报销流程信息
+  <view class="weui-panel__bd">
+    <view class="weui-cells__title">报销信息</view>
+    <view class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">单位名称</view>
+      <view class="weui-media-box__desc">清华大学</view>
+    </view>
+    <view class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">纳税人识别号</view>
+      <view class="weui-media-box__desc">12100000400000624D</view>
+    </view>
+    <view class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">地址、电话</view>
+      <view class="weui-media-box__desc">北京市海淀区清华园</view>
+    </view>
+    <view class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">开户行及账号</view>
+      <view class="weui-media-box__desc">工行海淀西区支行</view>
+    </view>
+  </view>
 </view>
