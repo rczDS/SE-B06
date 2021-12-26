@@ -1,0 +1,11 @@
+<view>
+  <view  class="inputTaskContent">
+    <text>任务内容</text>
+    <input type="text" maxlength="10" cursor-spacing="180px" placeholder="请输入任务内容"  model:value="{{content}}" bindinput="inputContent" />
+  </view>
+  <view  class="inputUsers">
+    <text>负责人</text>
+    <input type="text" maxlength="10" cursor-spacing="180px" placeholder="请输入负责人,用逗号隔开"  model:value="{{users}}" bindinput="inputUsers" />
+  </view>
+  <button class="weui-btn weui-btn_primary" bindtap="add" >添加</button>
+</view>

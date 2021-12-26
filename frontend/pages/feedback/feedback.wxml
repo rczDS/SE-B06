@@ -1,0 +1,7 @@
+<view>
+   <view  class="inputFB">
+    <text>反馈</text>
+     <input type="text" maxlength="10" cursor-spacing="180px" placeholder="请输入反馈"  model:value="{{fbtext}}" bindinput="inputFB" />
+   </view>
+ <button class="weui-btn weui-btn_primary" bindtap="fb" >提交反馈</button>
+</view>

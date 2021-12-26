@@ -1,0 +1,14 @@
+<view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd"> 
+      <label class="weui-label">文件地址</label>
+    </view>
+    <view class="weui-cell__bd">
+      <view class="inputName">
+        <input type="text" maxlength="50" cursor-spacing="180px" placeholder="请输入云盘地址"  model:value="{{name}}" bindinput="inputName" />
+      </view>
+    </view>
+  </view>
+    
+  <button class="weui-btn weui-btn_cell-default" bindtap="setAdmin" >更改云盘地址</button>
+</view>

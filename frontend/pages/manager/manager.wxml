@@ -1,0 +1,8 @@
+<view>
+    <button class="weui-btn weui-btn_primary" bindtap="allMembers" >所有成员</button>
+    <button class="weui-btn weui-btn_primary" bindtap="addMember" >添加成员</button>
+    <button class="weui-btn weui-btn_primary" bindtap="delMember" >删除成员</button>
+    <button class="weui-btn weui-btn_primary" bindtap="setAdmin" >管理员设置</button>
+    <button class="weui-btn weui-btn_primary" bindtap="fileAddress" >文件地址</button>
+    <button class="weui-btn weui-btn_primary" bindtap="getExcel" >导出报销表格</button>
+</view>
